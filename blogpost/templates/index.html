@@ -1,0 +1,14 @@
+<!--在我们的index.html中，我们就可以拿到前五篇博客。我们只需要遍历出posts，拿出每个post相应的值，就可以完成列表页。-->
+{% extends 'base.html' %}
+{% block title %}Welcome to my blog{% endblock %}
+
+{% block content %}
+<h1>Posts</h1>
+{% for post in posts %}
+<h2><a href="{{ post.get_absolute_url }}">{{ post.title }}</a></h2>
+<p>{{post.posted}} - By {{post.author}}</p>
+<p>{{post.body}}</p>
+{% endfor %}
+{% endblock %}
+
+<!--在上面的模板里，我们还取出了博客的链接用于跳转到详情页。-->
