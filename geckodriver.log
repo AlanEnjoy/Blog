@@ -1,0 +1,103 @@
+1516155640988	geckodriver	INFO	geckodriver 0.18.0
+1516155640994	geckodriver	INFO	Listening on 127.0.0.1:55508
+1516155642071	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1516155643699	Marionette	INFO	Listening on port 55519
+1516155643801	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-01-17 02:20:45.198 plugin-container[5373:821209] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7237, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1516156116547	geckodriver	INFO	geckodriver 0.18.0
+1516156116551	geckodriver	INFO	Listening on 127.0.0.1:55627
+1516156117613	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1516156118455	Marionette	INFO	Listening on port 55638
+1516156118592	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-01-17 02:28:39.863 plugin-container[5460:833079] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x723b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1516156191326	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1516156200809	geckodriver	INFO	geckodriver 0.18.0
+1516156200813	geckodriver	INFO	Listening on 127.0.0.1:55708
+1516156201878	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1516156202714	Marionette	INFO	Listening on port 55719
+1516156202851	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-01-17 02:30:04.127 plugin-container[5497:835437] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x763b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-01-17 02:30:35.931 plugin-container[5499:836136] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7d3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+1516156318344	geckodriver	INFO	geckodriver 0.18.0
+1516156318348	geckodriver	INFO	Listening on 127.0.0.1:55789
+1516156319413	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1516156320237	Marionette	INFO	Listening on port 55800
+1516156320377	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-01-17 02:32:01.640 plugin-container[5513:837724] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7b3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1516156551890	geckodriver	INFO	geckodriver 0.18.0
+1516156551894	geckodriver	INFO	Listening on 127.0.0.1:55853
+1516156552957	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1516156553800	Marionette	INFO	Listening on port 55865
+1516156553941	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-01-17 02:35:55.207 plugin-container[5542:841921] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x873b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1516157034836	geckodriver	INFO	geckodriver 0.18.0
+1516157034840	geckodriver	INFO	Listening on 127.0.0.1:56055
+1516157035903	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1516157036744	Marionette	INFO	Listening on port 56066
+1516157036884	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-01-17 02:43:58.163 plugin-container[5574:853003] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x763b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1516157183512	geckodriver	INFO	geckodriver 0.18.0
+1516157183516	geckodriver	INFO	Listening on 127.0.0.1:56137
+1516157184576	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1516157185424	Marionette	INFO	Listening on port 56148
+1516157185570	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-01-17 02:46:26.849 plugin-container[5591:855534] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x6d3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+1516157401298	geckodriver	INFO	geckodriver 0.18.0
+1516157401302	geckodriver	INFO	Listening on 127.0.0.1:56286
+1516157402366	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1516157403194	Marionette	INFO	Listening on port 56297
+1516157403331	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-01-17 02:50:04.599 plugin-container[5621:862380] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x773b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+[Child 5621] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-esr52-m64-000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2152
+[Child 5621] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-esr52-m64-000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2152
+1516157439672	geckodriver	INFO	geckodriver 0.18.0
+1516157439676	geckodriver	INFO	Listening on 127.0.0.1:56335
+1516157440738	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1516157441572	Marionette	INFO	Listening on port 56346
+1516157441712	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-01-17 02:50:42.995 plugin-container[5627:863683] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x823b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 5627] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-esr52-m64-000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2152
+[Child 5627] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-esr52-m64-000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2152
+1516157507010	geckodriver	INFO	geckodriver 0.18.0
+1516157507014	geckodriver	INFO	Listening on 127.0.0.1:56386
+1516157508075	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1516157508925	Marionette	INFO	Listening on port 56397
+1516157509066	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-01-17 02:51:50.337 plugin-container[5642:865300] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x893b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+2018-01-17 03:05:21.964 plugin-container[5680:874460] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x783b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: http://www.baidu.com/, line 655: ReferenceError: $ is not defined
+JavaScript error: http://www.baidu.com/, line 712: ReferenceError: $ is not defined
+JavaScript error: http://s1.bdstatic.com/r/www/cache/static/plugins/every_cookie_mac_82990d4.js, line 4: ReferenceError: c is not defined
+JavaScript error: http://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&ch=&tn=baidu&bar=&wd=%E5%A6%82%E4%BD%95%E6%8F%90%E4%BA%A4%E6%9C%AC%E5%9C%B0%E4%BB%A3%E7%A0%81%E5%88%B0git%E6%9C%8D%E5%8A%A1%E5%99%A8&oq=%E5%A6%82%E4%BD%95%E6%8F%90%E4%BA%A4%E6%9C%AC%E5%9C%B0%E4%BB%A3%E7%A0%81%E5%88%B0%E6%9C%8D%E5%8A%A1%E5%99%A8&rsv_pq=c43be230000017da&rsv_t=569eZVgnxh5YzVGTHHITY9srKt4Xlb00Oc5TG3fiH2v8egTt4Q8F8tj7tXg&rqlang=cn, line 3427: ReferenceError: initPreload is not defined
+JavaScript error: http://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&ch=&tn=baidu&bar=&wd=git&oq=fit&rsv_pq=c9b76f3c00001e68&rsv_t=b1a3Cl6Rmmxt31jsMMWG7xLhHa9o1h8IP5x2PgpA5Mzbph8sqOH4MDr7ibc&rqlang=cn, line 3459: ReferenceError: initPreload is not defined

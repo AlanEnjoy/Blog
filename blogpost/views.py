@@ -1,8 +1,5 @@
-from django.shortcuts import render
-from django.shortcuts import render,render_to_response,get_object_or_404
+from django.shortcuts import render, render_to_response, get_object_or_404
 from blogpost.models import Blogpost
-
-# 对于我们的首页来说，我们可以简单的只显示五篇博客，所以我们所需要做的就是从我们的Blogpost对象中，取出前五个结果即可。
 
 def index(request):
     return render_to_response('index.html', {
