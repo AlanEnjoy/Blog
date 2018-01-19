@@ -1,0 +1,6 @@
+Django==2.0.1
+django-contrib-comments==1.8.0
+pytz==2017.3
+selenium==3.8.1
+virtualenv==15.1.0
+
