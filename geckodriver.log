@@ -101,3 +101,12 @@ JavaScript error: http://www.baidu.com/, line 712: ReferenceError: $ is not defi
 JavaScript error: http://s1.bdstatic.com/r/www/cache/static/plugins/every_cookie_mac_82990d4.js, line 4: ReferenceError: c is not defined
 JavaScript error: http://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&ch=&tn=baidu&bar=&wd=%E5%A6%82%E4%BD%95%E6%8F%90%E4%BA%A4%E6%9C%AC%E5%9C%B0%E4%BB%A3%E7%A0%81%E5%88%B0git%E6%9C%8D%E5%8A%A1%E5%99%A8&oq=%E5%A6%82%E4%BD%95%E6%8F%90%E4%BA%A4%E6%9C%AC%E5%9C%B0%E4%BB%A3%E7%A0%81%E5%88%B0%E6%9C%8D%E5%8A%A1%E5%99%A8&rsv_pq=c43be230000017da&rsv_t=569eZVgnxh5YzVGTHHITY9srKt4Xlb00Oc5TG3fiH2v8egTt4Q8F8tj7tXg&rqlang=cn, line 3427: ReferenceError: initPreload is not defined
 JavaScript error: http://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&ch=&tn=baidu&bar=&wd=git&oq=fit&rsv_pq=c9b76f3c00001e68&rsv_t=b1a3Cl6Rmmxt31jsMMWG7xLhHa9o1h8IP5x2PgpA5Mzbph8sqOH4MDr7ibc&rqlang=cn, line 3459: ReferenceError: initPreload is not defined
+1516339933478	geckodriver	INFO	geckodriver 0.18.0
+1516339933483	geckodriver	INFO	Listening on 127.0.0.1:63943
+1516339934584	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1516339935443	Marionette	INFO	Listening on port 63955
+1516339935589	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-01-19 05:32:16.874 plugin-container[9752:1765494] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x893b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+[Child 9752] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-esr52-m64-000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2152
+[Child 9752] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-esr52-m64-000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2152

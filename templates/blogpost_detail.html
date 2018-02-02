@@ -1,22 +1,50 @@
 {% extends 'base.html' %}
 {% load comments %}
 
-{% block head_title %}{{ post.title }}{% endblock %}
-{% block title %}{{ post.title }}{% endblock %}
+{% block head_title %}{{ blog.title }}{% endblock %}
+{% block title %}{{ blog.title }}{% endblock %}
 
 {% block content %}
-<div class="mdl-card mdl-shadow--2dp">
-    <div class="mdl-card__title">
-        <h2 class="mdl-card__title-text"><a href="{{ post.get_absolute_url }}">{{ post.title }}</a></h2>
+<div>
+    <div>
+        <h2><a href="{{ blog.get_absolute_url }}">{{ blog.title }}</a></h2>
     </div>
-    <div class="mdl-card__supporting-text">
-        {{post.body}}
+    {{blog.body}}
+    <p>
+        {{blog.posted}} - By {{blog.author}}
+    </p>
+
+
+    <div class="comment">
+        <div class="comments-display" style="padding-top: 20px;">
+            <h3>评论</h3>
+            {% for comment in comments %}
+                <div class="comment-field" style="padding-top: 10px;">
+                    {{ comment.name }} 说: {{ comment.content }}
+                </div>
+            {% endfor %}
+        </div>
+        <div class="comment-post" style="padding-top: 20px;">
+            <h3>提交评论</h3>
+            <form action="{% url 'view_blog_post' blog.slug %}" method="post">
+                {% csrf_token %}
+                {% for field in form %}
+                    <div class="input-field" style="padding-top: 10px">
+                        {{ field.label }}: {{ field }}
+                    </div>
+                    <div class="error" style="color: red;">
+                        {{ field.errors }}
+                    </div>
+                {% endfor %}
+                <button type="submit" style="margin-top: 10px">提交</button>
+            </form>
+        </div>
     </div>
-    <div class="mdl-card__actions">
-        {{post.posted}} - By {{post.author}}
-    </div>
+
 </div>
-
-{% render_comment_list for post %}
-
 {% endblock %}
+
+
+
+
+
